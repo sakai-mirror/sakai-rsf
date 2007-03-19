@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+	<pomVersion>3</pomVersion>
+	<name>sakai-rsf-master</name>
+	<groupId>sakaiproject</groupId>
+	<currentVersion>${sakai.version}</currentVersion>
+	<organization>
+		<name>RSF Sakai Libraries</name>
+		<url>http://www2.caret.cam.ac.uk/rsfwiki/Wiki.jsp?page=SakaiRSF</url>
+	</organization>
+	<inceptionYear>2005</inceptionYear>
+    <extend>../../master/project.xml</extend>
+
+	<dependencies>
+	  <!--
+		<dependency>
+			<groupId>sakaiproject</groupId>
+			<artifactId>sakai</artifactId>
+			<version>${sakai.plugin.version}</version>
+			<type>plugin</type>
+		</dependency>
+		-->
+
+	</dependencies>
+
+	<build>	
+	</build>
+
+</project>

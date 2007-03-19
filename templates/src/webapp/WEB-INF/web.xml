@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE web-app PUBLIC
+  "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+  "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+<!-- This web.xml only supplies a listener to register this servlet 
+  context with Sakai -->
+  <display-name>Sakai RSF Components templates</display-name>
+  <description>Sakai RSF Component templates</description>
+  <listener>
+    <listener-class>org.sakaiproject.context.util.LocatorServletContextListener</listener-class>
+  </listener>
+</web-app>

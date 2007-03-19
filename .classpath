@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="impl/servlet-context-locator/impl/src/java"/>
+	<classpathentry kind="src" path="util/servlet-context-locator/util/src/java"/>
+	<classpathentry kind="src" path="api/servlet-context-locator/api/src/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="var" path="MAVEN_REPO/servletapi/jars/servletapi-2.4.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/component-api"/>
+	<classpathentry kind="var" path="MAVEN_REPO/j-servletutil/jars/j-servletutil-1.2.jar"/>
+	<classpathentry kind="var" path="MAVEN_REPO/commons-logging/jars/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
