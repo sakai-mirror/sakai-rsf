@@ -18,9 +18,11 @@
     <module>api/servlet-context-locator/api</module>
     <module>util/servlet-context-locator/util</module>
     <!-- bundle dependencies for direct build of RSF itself -->
+    <!-- 
     <module>bundle/PonderUtilCore</module>
     <module>bundle/J-ServletUtil</module>
     <module>bundle/J-RSFUtil</module>
     <module>bundle/SakaiRSF</module>
+    -->
   </modules>
 </project>
