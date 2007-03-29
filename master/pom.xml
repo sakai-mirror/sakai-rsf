@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>master</artifactId>
+    <groupId>org.sakaiproject</groupId>
+    <version>M2</version>
+    <relativePath>../../master/pom.xml</relativePath>
+  </parent>
+  <groupId>org.sakaiproject</groupId>
+  <artifactId>sakai-rsf-master</artifactId>
+  <packaging>pom</packaging>
+  <name>Sakai RSF Master</name>
+  <version>M2</version>
+  <organization>
+    <name>Sakai Project</name>
+    <url>http://sakaiproject.org/</url>
+  </organization>
+  <inceptionYear>2003</inceptionYear>
+  <properties>
+    <sakairsf.sakai.version>2.2.x</sakairsf.sakai.version>
+    <rsfutil.version>0.7.1RC4</rsfutil.version>
+    <ponderutilcore.version>1.2.1RC4</ponderutilcore.version>
+    <jservletutil.version>1.2.1RC4</jservletutil.version>
+  </properties>
+  <repositories>
+    <repository>
+      <id>CARET</id>
+      <name>CARET Maven Repository</name>
+      <layout>legacy</layout>
+      <url>http://www2.caret.cam.ac.uk/maven</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
+  <dependencies>
+
+  </dependencies>
+  <build>
+    <directory>m2-target</directory>
+    <outputDirectory>m2-target/classes</outputDirectory>
+    <finalName>${artifactId}-${version}</finalName>
+    <testOutputDirectory>m2-target/test-classes</testOutputDirectory>
+    <sourceDirectory>src/java</sourceDirectory>
+    <scriptSourceDirectory>src/webapp</scriptSourceDirectory>
+    <testSourceDirectory>src/test</testSourceDirectory>
+    <resources>
+      <resource>
+        <directory>${basedir}/src/java</directory>
+        <excludes>
+          <exclude>**/*.java</exclude>
+        </excludes>
+      </resource>
+      <resource>
+        <directory>${basedir}/src/bundle</directory>
+        <includes>
+          <include>**/*</include>
+        </includes>
+      </resource>
+    </resources>
+    <plugins>
+
+    </plugins>
+  </build>
+</project>
